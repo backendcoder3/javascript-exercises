@@ -9,6 +9,25 @@
 
 // Add your code right below, good luck!
 
+// Variables
+const firstName = 'Carlos';
+const lastName = 'Stevenson';
+const thisYear = 1965;
+const birthYear = 1947;
+
+const age = thisYear - birthYear;
+
+const fullName = `${firstName} ${lastName}`;
+
+const values = {
+  fullName: fullName,
+  age: age
+};
+
+const greeting = `Hello! My name is ${values.fullName} and I am ${values.age} years old.`;
+
+console.log(greeting);
+
 
 
 
